@@ -46,7 +46,7 @@ a:hover {
   background-image: linear-gradient(#f15412, #eeeeee);
   border-radius: 20px;
 }
-section {
+.flexable-container {
   display: flex;
 }
 .top-sec {
@@ -66,4 +66,63 @@ section {
 
 .mid-section h3 {
   padding-top: 20px;
+}
+
+/* Bottom-Section Start */
+.bottom-section {
+  background-image: url(../images/exp-bg.png);
+  background-repeat: no-repeat;
+}
+.bottom-section h1 {
+  font-size: 36px;
+  line-height: 46px;
+  text-align: center;
+  color: #f15412;
+}
+.bottom-section h2 {
+  font-size: 32px;
+  line-height: 42px;
+}
+
+.bottom-section .h4_1 {
+  font-size: 18px;
+  line-height: 28px;
+  padding: 10px 0;
+  color: #34b3f1;
+}
+
+.bottom-section .h4_2 {
+  font-size: 18px;
+  line-height: 28px;
+  padding: 10px 0;
+  color: #f15412;
+}
+
+.bottom-sec {
+  width: 40%;
+  margin: 5%;
+  padding: 60px 40px;
+  background-color: transparent;
+  box-shadow: 10px 10px 20px gray;
+  border-top-right-radius: 50px;
+}
+
+.bottom-section .box1 {
+  border-left: 5px solid #f15412;
+}
+
+.bottom-section .box2 {
+  border-left: 5px solid #34b3f1;
+}
+
+/* Footer Section Start */
+footer p {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  padding: 10px 0 30px;
+}
+
+footer span {
+  color: #34b3f1;
 }
